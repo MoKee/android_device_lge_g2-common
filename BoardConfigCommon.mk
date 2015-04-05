@@ -109,7 +109,7 @@ TARGET_NO_RPC := true
 
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-BOARD_HARDWARE_CLASS := device/lge/g2-common/cmhw/
+BOARD_HARDWARE_CLASS := device/lge/g2-common/mkhw/
 
 # SELinux policies
 # qcom sepolicy
