@@ -16,12 +16,12 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-if [ -f z2/system/bin/loki.sh ];then
+if [ -f z2/system/bin/panel.sh ];then
 	mkdirp out/system/bin 2> /dev/null
-	cp z2/system/bin/loki.sh out/system/bin
-	rm z2/system/bin/loki.sh
+	cp z2/system/bin/panel.sh out/system/bin
+	rm z2/system/bin/panel.sh
 fi
-if [ -f z1/system/bin/loki.sh ];then
-	rm z1/system/bin/loki.sh
+if [ -f z1/system/bin/panel.sh ];then
+	rm z1/system/bin/panel.sh
 fi
 

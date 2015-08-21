@@ -17,5 +17,5 @@
 #
 
 echo "package_extract_file(\"boot.img\", \"/tmp/boot.img\");" >> updater-script
-echo "assert(run_program(\"/system/bin/loki.sh\") == 0);" >> updater-script
-echo "delete(\"/system/bin/loki.sh\");" >> updater-script
+echo "assert(run_program(\"/system/bin/panel.sh\") == 0);" >> updater-script
+echo "delete(\"/system/bin/panel.sh\");" >> updater-script
