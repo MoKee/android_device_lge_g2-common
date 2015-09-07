@@ -18,4 +18,5 @@
 
 echo "package_extract_file(\"boot.img\", \"/tmp/boot.img\");" >> updater-script
 echo "assert(run_program(\"/system/bin/panel.sh\") == 0);" >> updater-script
+echo "assert(run_program(\"/sbin/sh\", \"-c\", \"busybox dd if=/tmp/boot.img of=/dev/block/platform/msm_sdcc.1/by-name/boot\") == 0);" >> updater-script
 echo "delete(\"/system/bin/panel.sh\");" >> updater-script
